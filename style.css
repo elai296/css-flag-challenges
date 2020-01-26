@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    color: white;
+}
+.columbia{
+    height: 75px;
+    width: 100px;
+}
+.yellow{
+    height: 50%;
+    background-color: yellow;
+}
+
+.blue {
+    height: 25%;
+    background-color: blue;
+}
+
+.red {
+    height: 25%;
+    background-color: red;
+}
+
+.sweden {
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+    position: relative;
+}
+
+.blue1{
+    height: 40%;
+    width: 35%;
+    top: 0;
+    background-color: blue;
+    /* display: inline-block; */
+}
+
+.blue2{
+    height: 40%;
+    width: 55%;
+    right: 0;
+    top: 0;
+    background-color: blue;
+    /* display: inline-block; */
+    position: absolute;
+}
+.blue3{
+    position: absolute;
+    height: 40%;
+    width: 35%;
+    bottom: 0;
+    background-color: blue;
+
+}
+.blue4{
+    position: absolute;
+    height: 40%;
+    width: 55%;
+    right: 0;
+    bottom: 0;
+    background-color: blue;;
+}
