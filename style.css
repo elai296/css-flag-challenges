@@ -61,3 +61,55 @@ body{
     bottom: 0;
     background-color: blue;;
 }
+
+.switzerland {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    background-color: red;
+}
+
+.white1 {
+    position: absolute;
+    height: 75%;
+    width: 25%;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.white2 {
+    position: absolute;
+    height: 25%;
+    width: 75%;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.flag {
+    margin:1rem;
+}
+.sweden2{
+    position: relative;
+    height: 30vw;
+    width:50vw;
+    background-color: blue;
+}
+.yellow1{
+    position: absolute;
+    width:50vw;
+    height: 5vw;
+    background-color: yellow;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.yellow2{
+    position: absolute;
+    width: 5vw;
+    height: 30vw;
+    background-color: yellow;
+    left:35%;
+}
