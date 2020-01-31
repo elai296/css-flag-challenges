@@ -69,7 +69,7 @@ body{
     background-color: red;
 }
 
-.white1 {
+.switzerland .white1 {
     position: absolute;
     height: 75%;
     width: 25%;
@@ -79,7 +79,7 @@ body{
     transform: translate(-50%, -50%);
 
 }
-.white2 {
+.switzerland .white2 {
     position: absolute;
     height: 25%;
     width: 75%;
@@ -111,5 +111,60 @@ body{
     width: 5vw;
     height: 30vw;
     background-color: yellow;
-    left:35%;
+    left: 35%;
+}
+
+.tonga {
+    position: relative;
+    width: 60vw;
+    height: 50vh;
+    background-color: red;;
+}
+
+.tonga .white1 {
+    position: absolute;
+    background: white;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 50%;
+    z-index: 100;
+}
+
+.tonga .red1 {
+    position: absolute;
+    height: 15%;
+    width: 25%;
+    left: 12.5%;
+    top: 16%;
+    background-color: red;
+    z-index: 100;
+}
+
+.tonga .red2 {
+    position: absolute;
+    height: 35%;
+    width: 10%;
+    left: 20%;
+    top: 7%;
+    background-color: red;
+    z-index: 100;
+}
+.japan {
+    position: relative;
+    width: 50vw;
+    height: 30vw;
+    background-color: white;
+}
+
+.japan .circleRed {
+    position: absolute;
+    width: 18vw;
+    height: 18vw;
+    border-radius: 50%;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+    transform: translate(-50%,-50%);
 }
