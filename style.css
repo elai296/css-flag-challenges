@@ -168,3 +168,30 @@ body{
     background-color: red;
     transform: translate(-50%,-50%);
 }
+
+.ireland {
+    position: relative;
+    display: flex;
+    width: 30vw;
+    height: 18vw;
+    background-color: white;
+}
+
+.greenIreland {
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    z-index: 100;
+    background-color: green;
+    justify-content: space-evenly;
+}
+
+.orangeIreland {
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    z-index: 100;
+    right: 0;
+    background-color: orange;
+    justify-content: space-evenly;
+}
