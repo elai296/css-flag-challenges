@@ -195,3 +195,39 @@ body{
     background-color: orange;
     justify-content: space-evenly;
 }
+
+.france {
+    position: relative;
+    width: 30vw;
+    height: 18vw;
+    background-color: white;
+}
+
+.blueFrance {
+    position: absolute
+}
+
+.canada {
+    position: relative;
+    width: 50vw;
+    height: 30vw;
+    background-color: red;
+}
+.canadaLeaf {
+    position: absolute;
+    width: 23vw;
+    height: 23vw;
+    top: 2vw;
+    right: 13vw;
+    transform: rotate(26deg);
+}
+
+.whiteCanada {
+    position: relative;
+    height: 100%;
+    background-color: white;
+    width: 50%;
+    align-self: center;
+    display: inline-block;
+    left: 25.9%;
+}
