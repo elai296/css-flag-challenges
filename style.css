@@ -231,3 +231,75 @@ body{
     display: inline-block;
     left: 25.9%;
 }
+
+.greeceflag {
+    position: relative;
+    height: 40vw;
+    width: 50vw;
+    background-color: white;
+}
+
+.greeceSmall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: pink;
+    z-index: 100;
+    width: 35%;
+    height: 50%;
+}
+.bluegreece1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40%;
+    width: 40%;
+    background-color: blue;
+}
+
+.bluegreece2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40%;
+    width: 40%;
+    background-color: blue;
+    /* z-index: 200; */
+}
+
+.bluegreece3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40%;
+    width: 40%;
+    background-color: blue;
+    /* z-index: 200; */
+}
+
+.bluegreece4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 40%;
+    width: 40%;
+    background-color: blue;
+    z-index: 200;
+}
+
+.greeceBig {
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+}
+.greeceblue2{
+    position: relative;
+    height: 11.11111%;
+    width: 100%;
+}
+.greeceblue2:nth-child(odd) {
+    background-color: blue;
+}
+.greeceblue2:nth-child(even) {
+    background-color: white;
+}
